@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="StyleContact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <h3>Escolha a Melhor Opção</h3>
+                <div class="content">
+                    <a href="https://github.com/RD0705"><img src="img/git.png" alt="" width="5px" height="200px" ></a>
+                    <a href="https://www.instagram.com/robert_daanillo/"><img src="img/insta.png" alt="" width="1vh" height="200px" ></a>
+                    <a href="https://www.linkedin.com/in/robert-danilo-896673171/"><img src="img/linkedin.png" alt="" width="1vh" height="200px" ></a>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="img/cartman.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript">
+        /*Função de mudar o celular*/
+        function imgSlider(e){
+            document.querySelector('#phone').src = e;
+        }
+        /*Função de mudar a cor do circulo*/
+        function circleChange(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>

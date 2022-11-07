@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Welcome :)</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <navbar id="navbar">
+        <div class="navbar-container">
+            <h1>RD💻</h1>
+            <ul class="navbar-items">
+            <li class="navbar-items" onclick="redirecionar()">Quem Sou Eu?</li>
+            <li class="navbar-items" onclick="redirecionar2()">Contatos</li>
+        </div>
+   
+    </navbar>
+
+    <!-- ShowCase -->
+    <div class="showcase">
+        <div class="showcase-container">
+            <h2>Veja Meus Projetos</h2>
+            <a href="https://github.com/RD0705"><button class="btn-primary">  Portifólio Completo</button></a>
+        </div>
+    </div>
+    <script>
+        function redirecionar() {
+            location.href = 'http://127.0.0.1:5501/Who.html'
+}
+function redirecionar2() {
+            location.href = 'http://127.0.0.1:5501/contact.html'
+}
+    </script>
+</body>
+</html>
